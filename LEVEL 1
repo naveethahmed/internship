@@ -1,0 +1,22 @@
+LEVEL 1 [SET UP A VIRTUAL MACHINE]
+ Launch Instance
+In the EC2 Dashboard, click Launch Instance.
+3. Select AMI
+Choose an Amazon Machine Image (e.g., Amazon Linux 2, Ubuntu).
+4. Choose Instance Type
+Select an instance type (e.g., t2.micro for free tier).
+5. Configure Instance
+Configure instance details (e.g., network, subnet).
+6. Add Storage
+Adjust storage size (default is typically fine).
+7. Add Tags
+(Optional) Add tags to organize the instance.
+8. Configure Security Group
+Set up a security group (allow SSH on port 22 for Linux, RDP for Windows).
+9. Create Key Pair
+Create or choose an existing key pair for SSH/RDP access.
+10. Launch Instance
+Click Launch and wait for the instance to be running.
+11. Connect
+Use SSH (Linux) or RDP (Windows) to connect to the instance using the public IP and private key.
+That's it! Your EC2 instance is now running.
